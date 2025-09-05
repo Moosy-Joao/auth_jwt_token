@@ -64,15 +64,6 @@ Authorization: Bearer <jwt_token>
 ### 2) Login (gera token)
 ![Login](docs/prints/login.png)
 
-### 3) Protected (200 OK)
-![Protected OK](docs/prints/protected-ok.png)
-
-### 4) Logout (token vai para a blacklist)
-![Logout](docs/prints/logout.png)
-
-### 5) Protected depois do logout (401)
-![Unauthorized](docs/prints/protected-401.png)
-
 ---
 
 ## 🖼️ Prints no Repositório
@@ -83,13 +74,4 @@ Os prints utilizados para demonstrar o fluxo também estão disponíveis na past
 docs/prints/
 ├── register.png
 ├── login.png
-├── protected-ok.png
-├── logout.png
-└── protected-401.png
 ```
-
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/LeiteLimaPedro/atividade-fluxo-api.git
-cd atividade-fluxo-api
